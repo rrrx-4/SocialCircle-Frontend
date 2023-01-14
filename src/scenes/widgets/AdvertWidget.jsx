@@ -20,7 +20,7 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src={`${REACT_APP_BASEURL}/assets/info4.jpeg`}
+        src={`https://socialcircle-server-48bl.onrender.com/assets/info4.jpeg`}
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>

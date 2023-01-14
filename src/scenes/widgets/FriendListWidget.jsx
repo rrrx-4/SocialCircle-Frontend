@@ -13,7 +13,7 @@ const FriendListWidget = ({ userId }) => {
 
   const getFriends = async () => {
     const response = await fetch(
-      `${REACT_APP_BASEURL}/${userId}/friends`,
+      `https://socialcircle-server-48bl.onrender.com/${userId}/friends`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },

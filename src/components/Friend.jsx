@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `${REACT_APP_BASEURL}/users/${_id}/${friendId}`,
+      `https://socialcircle-server-48bl.onrender.com/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {

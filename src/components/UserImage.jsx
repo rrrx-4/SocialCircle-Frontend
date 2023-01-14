@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`${REACT_APP_BASEURL}/assets/${image}`}
+        src={`https://socialcircle-server-48bl.onrender.com/assets/${image}`}
       />
     </Box>
   );
